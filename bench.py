@@ -2,6 +2,7 @@ import sys
 import time
 import ssl
 import urllib.request
+import certifi
 
 
 def human_bytes(n: int) -> str:
